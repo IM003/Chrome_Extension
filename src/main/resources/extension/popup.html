@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TranslateXt</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!--Fonts family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="layer2"></div>
+    <div class="layer2">
+
+        <header>
+            <div>
+                <img src="./icon/icon48.png" alt="logo" id="logo">
+                <h1 id="title">TranslateXt</h1>
+            </div>
+            <h3 id="subtitle">Powered by Gemini API & WildFly Server.</h3>
+        </header>
+        
+        <section class="container">
+            <div id="selected">Veuillez selectionner un texte à traduire..</div>
+        </section>
+
+        <section class="divider">
+
+            <button type="button" id="translateButton" class="button">
+                <span class="fold"></span>
+
+                <div class="points_wrapper">
+                    <i class="point"></i>
+                    <i class="point"></i>
+                    <i class="point"></i>
+                    <i class="point"></i>
+                    <i class="point"></i>
+                    <i class="point"></i>
+                    <i class="point"></i>
+                    <i class="point"></i>
+                    <i class="point"></i>
+                    <i class="point"></i>
+                </div>
+
+                <span class="inner"
+                    ><svg
+                    class="icon"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    >
+                    <polyline
+                        points="13.18 1.37 13.18 9.64 21.45 9.64 10.82 22.63 10.82 14.36 2.55 14.36 13.18 1.37"
+                    ></polyline></svg>Traduire</span>
+                </button>
+
+
+            <div class="custom-select">
+                <select name="selectLanguage" id="selectLanguage">
+                    <option value="fr">Français</option>
+                    <option value="en">Anglais</option>
+                    <option value="es">Espagnol</option>
+                    <option value="de">Allemand</option>
+                    <option value="it">Italien</option>
+                    <option value="pt">Portugais</option>
+                    <option value="ru">Russe</option>
+                    <option value="zh">Chinois</option>
+                    <option value="ja">Japonais</option>
+                    <option value="ar">Arabe</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="container">
+            <div id="result">Résultat: </div>
+        </section>
+
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

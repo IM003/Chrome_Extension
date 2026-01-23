@@ -49,20 +49,20 @@ public class GeminiService {
         HttpResponse<String> response =
                 client.send(request, HttpResponse.BodyHandlers.ofString());
 
-        // 🔴 Vérification HTTP
+        // Vérification HTTP
         if (response.statusCode() != 200) {
             throw new RuntimeException("Erreur HTTP Gemini: " + response.body());
         }
 
         JsonNode root = mapper.readTree(response.body());
 
-        // 🔴 Cas d’erreur Gemini
+        // Cas d’erreur Gemini
         if (root.has("error")) {
             String message = root.path("error").path("message").asText("Erreur Gemini inconnue");
             throw new RuntimeException(message);
         }
 
-        // ✅ Extraction SAFE (AUCUN get(0))
+        //Extraction SAFE (AUCUN get(0))
         JsonNode candidates = root.path("candidates");
 
         if (!candidates.isArray() || candidates.isEmpty()) {

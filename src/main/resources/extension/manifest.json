@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "TranslateXt",
+    "version": "1.0",
+    "description": "Traducteur IA vers toutes les langues",
+    "permissions": [
+        "sidePanel",
+        "contextMenus",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "icons": {
+    "16": "./icon/icon16.png",
+    "48": "./icon/icon48.png",
+    "128": "./icon/icon128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "side_panel": {
+        "default_path": "popup.html"
+    }
+}
