@@ -1,3 +1,4 @@
+![Logo](https://github.com/IM003/Chrome_Extension/blob/master/src/main/resources/extension/icon/logo.png)
 # Chrome Extension – Traduction intelligente avec Gemini AI
 
 ## Vidéo
@@ -45,7 +46,7 @@ Objectif :
 4. Choisir la langue cible si nécessaire
 
 ### Images 
-![Démo de l’extension](./)
+![Démo de l’extension](https://github.com/IM003/Chrome_Extension/blob/master/src/main/resources/extension/icon/img2.png)
 
 ## Sécurité
 
