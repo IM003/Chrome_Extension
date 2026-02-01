@@ -2,7 +2,7 @@
 # Chrome Extension – Traduction intelligente avec Gemini AI
 
 ## Vidéo
-[![IA Translator Vidéo Link](https://img.youtube.com/vi/ID_DE_LA_VIDEO/0.jpg)](https://drive.google.com/file/d/1P8B4yD0IIMfp-5Jmn2CNid3r4vt63JmH/view?usp=sharing)
+[![IA Translator Vidéo Link](https://img.youtube.com/vi/ID_DE_LA_VIDEO/0.jpg)](https://youtu.be/eVyCMLOm3eE?si=lXGmCLwlSFs59FzF)
 
 ## Description
 
